@@ -24,7 +24,7 @@ env:
   CUSTOMIZE_LINK: ${{ secrets.CUSTOMIZE_LINK }}
 
   # include special protocols, such as vless hysteria2 and hysteria
-  ENABLE_SPECIAL_PROTOCOLS: ${{ vars.ENABLE_SPECIAL_PROTOCOLS }}
+  ENABLE_SPECIAL_PROTOCOLS: false
 
 jobs:
   process:
